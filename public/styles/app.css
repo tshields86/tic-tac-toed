@@ -220,8 +220,14 @@ footer {
   border-right: 4px solid #cdcdcd;
   border-left: 4px solid #cdcdcd;
   border-radius: 20px 20px 0 0;
+  box-shadow: 0 0 30px #777;
 }
 
 footer a {
   color: rgb(146,220,229);
+  text-decoration: none;
+}
+
+strong {
+  color: rgb(254,95,85)
 }
