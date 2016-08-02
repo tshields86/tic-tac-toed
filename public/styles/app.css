@@ -13,20 +13,16 @@ body {
 }
 
 .container {
-  height: 100vh;
+  height: 95vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  resize: both;
-  overflow: auto;
 }
 
 .tictactoe {
     margin: 0 auto;
     text-align: center;
-    overflow: auto;
-
 }
 
 .header {
@@ -44,7 +40,7 @@ body {
     color: #eee;
     letter-spacing: 2px;
     font-size: 5em;
-    text-shadow: 0 0 10px #333;
+    text-shadow: 0 0 10px #cdcdcd;
     box-shadow: 0 0 30px #777;
     -webkit-transition: .45s ease-out;
     -moz-transition: .45s ease-out;
@@ -75,9 +71,8 @@ body {
     color: #eee;
     letter-spacing: 2px;
     font-size: 1em;
-    text-shadow: 0 0 10px #333;
     box-shadow: 0 0 30px #777;
-    text-shadow: 0 0 10px #333;
+    text-shadow: 0 0 10px #cdcdcd;
     font-size: .9em;
     font-weight: 700;
     text-transform: uppercase;
@@ -163,7 +158,7 @@ td {
     margin: 0;
     min-width: 100%;
     min-height: 100%;
-    text-shadow: 0 0 10px #333;
+    text-shadow: 0 0 10px #cdcdcd;
     font-size: .9em;
     font-weight: 700;
     text-transform: uppercase;
@@ -212,4 +207,21 @@ td {
     -ms-transition: .45s ease-out;
     -o-transition: .45s ease-out;
     transition: .45s ease-out
+}
+
+footer {
+  height: 5vh;
+  line-height: 5vh;
+  width: 45vw;
+  color: #eee;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 4px solid #cdcdcd;
+  border-right: 4px solid #cdcdcd;
+  border-left: 4px solid #cdcdcd;
+  border-radius: 20px 20px 0 0;
+}
+
+footer a {
+  color: rgb(146,220,229);
 }
